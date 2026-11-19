@@ -4,8 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
+   <link rel="stylesheet" href="./index.html">
+  <link rel="stylesheet" href="./product.html">
+  <link rel="stylesheet" href="./about.html">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js">
 </head>
 <body>
-  
+  <div>
+    <h1>Contact Page</h1>
+    <form action="/submit-form" method="POST">
+     <label for="name">Full name and surname: </label>
+     <input type="text" id="name" name="name"><br><br>
+     <label for="email">Contact email address: </label>
+     <input type="text" id="email" name="Email"><br><br>
+     <label for="phone">Personal phone number: </label>
+     <input type="text" id="phone" name="phone number"><br><br>
+     <label for="subject">Reason/subject for contact: </label> 
+     <select id="subject" name="subject">
+       <option value="nothing">None</option>
+       <option value="general">General inquiry of products</option>
+       <option value="support">Ways to support our business</option>
+       <option value="feedback">Feedback</option>
+       <option value="customer">Customer support</option>
+       <option value="other">Other</option><br><br>
+     </select> 
+    <p><label for="message">Input your reason for contact:</label></p>
+      <textarea id="Message" name="Feedback" rows="5" cols="50" maxlength="1500"></textarea><br>
+    <input type="button" value="submit"><br><br><br>
+   </form>
+  </div>
 </body>
 </html>
