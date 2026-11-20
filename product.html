@@ -8,14 +8,21 @@
   <link rel="stylesheet" href="./index.html">
   <link rel="stylesheet" href="./about.html">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+  <div class="container">
+      <nav class="navbar sticky-top bg-body-tertiary" style="background-color: #e3f2fd;" data-bs-theme="light">
+        <div class="container-fluid">
+          <a class="navbar-brand, link-info" href="./index.html" target="_blank">Home</a>
+          <a class="navbar-brand, link-info" href="./contact.html" target="_blank">Contact</a>
+          <a class="navbar-brand, link-info" href="./about.html" target="_blank">About</a>
+        </div>
   </head>
 </head>
 <body>
+  <div class="alert alert-danger" role="alert">
+    <em><strong>NOTE:</strong> If products are not listed below, then they are currently unavailable or not in stock. If in need of assistance, make use of the <a href="./contact.html" target="_blank">Contact</a> page.</em></div>
   <div>
     <h1>All available products</h1>
     <p>Products sold by or under the companys name are as followed.</p>
-    <p><em><strong>NOTE:</strong> If products are not listed below, then they are currently unavailable or not in stock. If in need of assistance, make use of the <a href="./contact.html" target="_blank">Contact</a> page.</em></p>
-
     <h2 class="card">Products:</h2>
      <div class="card border border-primary, text-bg-dark mb-3" style="max-width: 18rem;">
        <img scr="https://mycrystaladdiction.com/cdn/shop/articles/types-of-quartz-crystals-collection_e86b06f1-2282-417f-9c59-e87eee4e279c.jpg?v=1784539273&width=1074" class="card-img-top" alt="quartz" height="100vh">
@@ -35,12 +42,12 @@
       
      </div>
 
-      <div class="card border border-primary, text-bg-dark mb-3" style="max-width: 18rem;">
+      <div class="card border border-primary, text-bg-dark mb-3, row row-cols-1 row-cols-md-3 g-4, card h-100" style="max-width: 18rem;" >
        <img scr="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL9eeWBAA8xdHyrmTX5XhkJl2e2-A2ZE-u_txZskWU_A&s=10" class="card-img-top" alt="jasper">
        <div class="card-body"></div>
        <h3 class="card-title">Jasper available:</h3>
        <p class="card-text">
-        <ul class="list-group list-group-flush">
+        <ul class="list-group list-group-flush ">
           <li class="list-group-item">Imperial jasper</li>
           <li class="list-group-item">Dalmation jasper</li>
           <li class="list-group-item">Ocean jasper</li>
